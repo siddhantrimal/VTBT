@@ -1,0 +1,117 @@
+baseurl = "https://siddhantrimal.github.io/VTBT"
+title = "VTBT"
+theme = "dimension"
+publishDir = "docs"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableRSS = true
+
+[params]
+  title = "VTBT"
+  description = '<p><strong>Virtual Tour of Bhimsen Tower</strong></p>&nbsp;A virtual game-environment built on <a href="https://unity3d.com/" target="_blank">Unity 3D</a> that allows users to visit Dharahara'
+  logoimage = "images/dharaharaW.png"
+  copyright = "Narayan Panthi, Siddhant Rimal & Sneha Prasai"
+
+[[params.authors]]
+  name = "Narayan Panthi"
+  naam = "नारायण​ पन्थी"
+  email = "nrn.panthi@gmail.com"
+
+[[params.authors.social]]
+  medium ="twitter"
+  icon = "twitter"
+  handle ="iamnarn"
+
+[[params.authors.social]]
+  medium ="facebook"
+  icon = "facebook"
+  handle ="iamnaran"
+
+[[params.authors.social]]
+  medium ="github"
+  icon = "github"
+  handle ="iamnaran"
+
+[[params.authors.social]]
+  medium ="linkedin"
+  icon = "linkedin"
+  handle ="iamnaran"
+
+[[params.authors]]
+  name = "Siddhant Rimal"
+  naam = "सिद्धान्त रिमाल"
+  email = "siddhantrimal@hotmail.com"
+
+[[params.authors.social]]
+  medium ="twitter"
+  icon = "twitter"
+  handle ="siddhantrimal"
+
+[[params.authors.social]]
+  medium ="facebook"
+  icon = "facebook"
+  handle ="siddhantrimal"
+
+[[params.authors.social]]
+  medium ="github"
+  icon = "github"
+  handle ="siddhantrimal"
+
+[[params.authors.social]]
+  medium ="linkedin"
+  icon = "linkedin"
+  handle ="siddhantrimal"
+
+[[params.authors]]
+  name = "Sneha Prasai"
+  naam = "स्नेहा प्रशाई"
+  email = "sweto.sneha@gmail.com"
+
+[[params.authors.social]]
+  medium ="facebook"
+  icon = "facebook"
+  handle ="sneha.prasai"
+
+[[params.authors.social]]
+  medium ="github"
+  icon = "github"
+  handle ="snehaprasai"
+
+[[params.authors.social]]
+  medium ="linkedin"
+  icon = "linkedin"
+  handle ="sneha-prasai-241746107"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "#"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "#"
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "#"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "#"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+title = "VTBT"
+
+[languages.np]
+logoimage = "../images/dharaharaW.png"
+languageName = "नेपाली"
+weight = 2
+title = "VTBT"
+description = '<p style="font-size:1.2em; letter-spacing:0em;"><strong>भिमसेन स्तम्भको भर्चुअल भ्रमण</strong></p>&nbsp;धरहरा घुम्न मिल्ने गरी <a href="https://unity3d.com/" target="_blank">Unity 3D</a> मा निर्माण गरिएको एक डिजिटल​-वातावरण'

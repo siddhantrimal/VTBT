@@ -1,0 +1,20 @@
+<ul  style="text-align: center;">
+{{ range $element := .Site.Params.authors }}
+<span style="font-size: 1.5em;">{{ .naam }}</span><br/>
+<span style="font-size: 1.0em;"><a href="mailto:{{ .email }}">{{ .email }}</a></span>
+<div style="height:.5em;">&nbsp;</div>
+<ul class="icons" style="text-align: center;">
+{{ range .social }}
+	{{ if eq .medium "twitter" }}
+	<li><a href="https://www.twitter.com/{{ .handle }}" class="icon fa-{{ .icon }}"></a></li>
+	{{else if eq .medium "facebook" }}
+	<li><a href="https://www.facebook.com/{{ .handle }}" class="icon fa-{{ .icon }}"></a></li>
+	{{else if eq .medium "github" }}
+	<li><a href="https://www.github.com/{{ .handle }}" class="icon fa-{{ .icon }}"></a></li>
+	{{else if eq .medium "linkedin" }}
+	<li><a href="https://www.linkedin.com/in/{{ .handle }}" class="icon fa-{{ .icon }}"></a></li>
+	{{ end }}
+{{ end }}
+</ul>
+{{ end }}
+</ul>

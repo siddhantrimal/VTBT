@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://siddhantrimal.github.io/VTBT/sitemap.xml
