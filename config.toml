@@ -1,11 +1,11 @@
-baseurl = "https://siddhantrimal.github.io/VTBT"
+baseurl = "https://vtbt.siddhant.com.np"
 title = "VTBT"
 theme = "dimension"
 publishDir = "docs"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
-disableRSS = true
+#disableRSS = true
 
 [params]
   title = "VTBT"
